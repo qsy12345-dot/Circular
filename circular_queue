@@ -1,0 +1,11 @@
+#ifndef _CIRCULAR_QUEUE_
+#define _CIRCULAR_QUEUE_ 1
+
+#if __has_include(<circular_list>)
+#include<bits/stl_circular_queue.h>
+#include<circular_list>
+#else
+#error You Must Has "circular_list" To Run "circular_queue"!
+#endif
+
+#endif

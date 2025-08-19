@@ -1,0 +1,13 @@
+#ifndef _CIRCULAR_LIST_
+#define _CIRCULAR_LIST_ 1
+
+#pragma GCC system_header
+
+#if __cplusplus < 201103L
+#include <bits/c++0x_warning.h>
+#else
+#include <bits/allocator.h>
+#include <bits/stl_circular_list.h>
+#include <bits/range_access.h>
+#endif
+#endif 
